@@ -56,9 +56,16 @@ python main.py --aug <augmentations>
 **```APRecombination``` for APR-S and ```mix_data``` for APR-P can plug and play in other training codes.**
 
 ## 3. Results
+### Fourier Analysis
 <p align="center">
     <img src=./img/fourier.png width="800">
 </p>
 
 > The standard trained model is highly sensitive to additive noise in all but the lowest frequencies. APR-SP could substantially improve robustness to most frequency perturbations. The code of Heat maps is developed upon the following project [FourierHeatmap](https://github.com/gatheluck/FourierHeatmap).
 
+### ImageNet-C
+- Results of ResNet-50 models on ImageNet-C:
+
+|         | +(APR-P) | +(APR-S)   | +(APR-SP)   | +DeepAugMent+(ARP-SP) |
+| :-------- |:---------:| :----:| :----:| :---: |
+| mCE   | 70.5     | 69.3 | 65.0 | 57.5 |
