@@ -25,11 +25,13 @@ Official PyTorch implementation of "**Amplitude-Phase Recombination: Rethinking 
 ## Citation
 If you find our work, this repository and pretrained adversarial generators useful. Please consider giving a star :star: and citation.
 ```bibtex
-@inproceedings{chen2021amplitude,
-    title={Amplitude-Phase Recombination: Rethinking Robustness of Convolutional Neural Networks in Frequency Domain},
-    author={Chen, Guangyao and Peng, Peixi and Ma, Li and Li, Jia and Du, Lin and Tian, Yonghong},
-    booktitle={Proceedings of the IEEE International Conference on Computer Vision},
-    year={2021}
+@InProceedings{Chen_2021_ICCV,
+    author    = {Chen, Guangyao and Peng, Peixi and Ma, Li and Li, Jia and Du, Lin and Tian, Yonghong},
+    title     = {Amplitude-Phase Recombination: Rethinking Robustness of Convolutional Neural Networks in Frequency Domain},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {458-467}
 }
 ```
 
