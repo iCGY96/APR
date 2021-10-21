@@ -56,7 +56,7 @@ python main.py --aug <augmentations>
 > Option --aug can be one of None/APR-S. The default training method is APR-P. To evaluate the model, add --eval after this command.
 
 **```APRecombination``` for APR-S and ```mix_data``` for APR-P can plug and play in other training codes.**
-**We provide an example of training on Imagenet in ```imagenet.py```.**
+**We provide an example of training on ImageNet in ```imagenet.py```.**
 
 ## 3. Results
 ### Fourier Analysis
