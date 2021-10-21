@@ -55,8 +55,8 @@ python main.py --aug <augmentations>
 ```
 > Option --aug can be one of None/APR-S. The default training method is APR-P. To evaluate the model, add --eval after this command.
 
-**```APRecombination``` for APR-S and ```mix_data``` for APR-P can plug and play in other training codes.**
-**We provide an example of training on ImageNet in ```imagenet.py```.**
+- **```APRecombination``` for APR-S and ```mix_data``` for APR-P can plug and play in other training codes.**
+- **We provide an example of training on ImageNet in ```imagenet.py```.**
 
 ## 3. Results
 ### Fourier Analysis
@@ -69,6 +69,6 @@ python main.py --aug <augmentations>
 ### ImageNet-C
 - Results of ResNet-50 models on ImageNet-C:
 
-|         | +(APR-P) | +(APR-S)   | +(APR-SP)   | +DeepAugMent+(ARP-SP) |
-| :-------- |:---------:| :----:| :----:| :---: |
-| mCE   | 70.5     | 69.3 | 65.0 | 57.5 |
+|         | Standard | +(APR-P) | +(APR-S)   | +(APR-SP)   | +DeepAugMent+(ARP-SP) |
+| :-------- |:---------: |:---------:| :----:| :----:| :---: |
+| mCE   | 80.6      | 70.5     | 69.3 | 65.0 | 57.5 |
