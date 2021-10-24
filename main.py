@@ -83,7 +83,7 @@ def main():
     else:
         print("Currently using CPU")
 
-    if 'cifar10' in options['dataset']:
+    if 'cifar10' == options['dataset']:
         Data = CIFAR10D(dataroot=options['data'], batch_size=options['batch_size'], _transforms=options['aug'], _eval=options['eval'])
         OODData = CIFAR100D(dataroot=options['data'], batch_size=options['batch_size'], _transforms=options['aug'])
     else:
