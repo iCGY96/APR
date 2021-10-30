@@ -81,15 +81,6 @@ def save_networks(networks, result_dir, name='', loss='', criterion=None):
         filename = '{}/checkpoints/{}_{}_criterion.pth'.format(result_dir, name, loss)
         torch.save(weights, filename)
 
-def save_GAN(netG, netD, result_dir, name=''):
-    mkdir_if_missing(osp.join(result_dir, 'checkpoints'))
-    weights = netG.state_dict()
-    filename = '{}/{}_G.pth'.format(result_dir, name)
-    torch.save(weights, filename)
-    weights = netD.state_dict()
-    filename = '{}/{}_D.pth'.format(result_dir, name)
-    torch.save(weights, filename)
-
 def load_networks(networks, result_dir, name='', loss='', criterion=None):
     weights = networks.state_dict()
     filename = '{}/checkpoints/{}_{}.pth'.format(result_dir, name, loss)
