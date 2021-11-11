@@ -69,6 +69,6 @@ python main.py --aug <augmentations>
 ### ImageNet-C
 - Results of ResNet-50 models on ImageNet-C:
 
-|         | Standard | +(APR-P) | +(APR-S)   | +(APR-SP)   | +DeepAugMent+(ARP-SP) |
+|         | Standard | +(APR-P) | +(APR-S)   | +[(APR-SP)](https://drive.google.com/drive/folders/1HL2y3a4BwwoXyF-29GfFW-XoP8DZrCVy?usp=sharing)   | +[DeepAugMent+(ARP-SP)](https://drive.google.com/drive/folders/1HL2y3a4BwwoXyF-29GfFW-XoP8DZrCVy?usp=sharing) |
 | :-------- |:---------: |:---------:| :----:| :----:| :---: |
 | mCE   | 80.6      | 70.5     | 69.3 | 65.0 | 57.5 |
