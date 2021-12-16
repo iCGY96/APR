@@ -23,7 +23,7 @@ Official PyTorch implementation of "**Amplitude-Phase Recombination: Rethinking 
  **Fig. 3: Two ways of the proposed Amplitude-Phase Recombination: APR-P and APR-S. Motivated by the powerful generalizability of the human, we argue that reducing the dependence on the amplitude spectrum and enhancing the ability to capture phase spectrum can improve the robustness of CNN.**
 
 ## Citation
-If you find our work, this repository and pretrained adversarial generators useful. Please consider giving a star :star: and citation.
+If you find our work and this repository useful. Please consider giving a star :star: and citation.
 ```bibtex
 @InProceedings{Chen_2021_ICCV,
     author    = {Chen, Guangyao and Peng, Peixi and Ma, Li and Li, Jia and Du, Lin and Tian, Yonghong},
